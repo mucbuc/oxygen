@@ -44,7 +44,7 @@ std::string TextFactory::make(std::initializer_list<typename std::map<std::strin
 
 ElementFactories& ElementFactories::insert(std::string name, const TextFactory& f)
 {
-    const auto r = m_factories.insert(make_pair(name, f));
+    m_factories.insert(std::make_pair(name, f));
     return *this;
 }
 

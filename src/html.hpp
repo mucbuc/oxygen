@@ -27,13 +27,20 @@ ElementFactories html_factory()
                                     });
     result.insert("radio_button", radio_button_factory);
 
+    auto field_set = TextFactory(R"(
+        <fieldset>
+        <legend>{{legend}}</legend>
+        {{content}}
+        </fieldset>
+        )");
+    result.insert("fieldset", field_set);
+
     auto form_factory = TextFactory(R"(
         <form action="{{action}}">
         {{content}}
         {{submit}}
         </form>
-    )")
-                            .set_var("submit", "");
+    )");
     result.insert("form", form_factory);
 
     return result;
