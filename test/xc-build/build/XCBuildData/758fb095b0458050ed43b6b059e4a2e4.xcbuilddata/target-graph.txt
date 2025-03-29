@@ -1,6 +1,0 @@
-Target dependency graph (3 targets)
-Target 'example' in project 'example'
-➜ Explicit dependency on target 'ZERO_CHECK' in project 'example'
-➜ Explicit dependency on target 'oxygen' in project 'example'
-Target 'oxygen' in project 'example' (no dependencies)
-Target 'ZERO_CHECK' in project 'example' (no dependencies)
