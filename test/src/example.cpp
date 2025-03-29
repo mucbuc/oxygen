@@ -2,6 +2,27 @@
 #include <oxygen/src/html.hpp>
 
 template <typename T>
+static void test_recursion(const T& elements_factory)
+{
+    const auto fieldset2 = elements_factory.factory("fieldset").make();
+    const auto form = elements_factory.factory("form").make({{"content", fieldset2}});
+    
+
+    std::cout << form << std::endl;
+}
+
+
+template <typename T>
+static void test_missing_var(const T& elements_factory)
+{
+    const auto fieldset2 = elements_factory.factory("fieldset").make({
+        { "label", "llll" },
+    });
+
+    std::cout << fieldset2 << std::endl;
+}
+
+template <typename T>
 static void test_basic_usage(const T& elements_factory)
 {
     const auto submit = elements_factory.factory("button").make({ { "content", "hello" } });
@@ -25,6 +46,8 @@ static void test_basic_usage(const T& elements_factory)
 
 int main()
 {
+    test_recursion(oxygen::html_factory());
+    test_missing_var(oxygen::html_factory());
     test_basic_usage(oxygen::html_factory());
 
     return 0;

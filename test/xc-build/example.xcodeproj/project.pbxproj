@@ -1,0 +1,1125 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		45B6B023C78B4375A8E8CAF0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1AA2304E292144F388C6CB79 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6C0DB650F787E977D029F3C9 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		5760EF73859C4E99A0718710 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7A01E11575664469B86F6F9C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				F492DFB75A88F829DBC98FFA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				D8F7E036E3E34CD9A16E0343 /* PBXTargetDependency */,
+				29264D9BE1464551B0F653DF /* PBXTargetDependency */,
+				B15CACCCE55D4712BEE4941A /* PBXTargetDependency */,
+				56FF66F992A94C9689401FAE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		96FC31F8D3064413958722B9 /* asserter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F361004DF6A4D15898ED130 /* Build configuration list for PBXAggregateTarget "asserter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = asserter;
+			productName = asserter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		045D5DF4024946EE813A1488 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/src/oxygen.hpp */ = {isa = PBXBuildFile; fileRef = DED7C10EE7BB4DF6805D8390 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/src/oxygen.hpp */; };
+		372B742948E9400199BFFC68 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 21283B5C4646436BA8596E81 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/CMakeLists.txt */; };
+		5FB95261F7404D1292AC9ECA /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 83E0875D74B64069B47E9109 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/CMakeLists.txt */; };
+		8376FC84E73544389B7D816A /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/src/oxygen.cpp */ = {isa = PBXBuildFile; fileRef = 3508B5192FD34D6FA6878BC3 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/src/oxygen.cpp */; };
+		96C6EB00BE974543B7236708 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/src/example.cpp */ = {isa = PBXBuildFile; fileRef = 50B85ACF48344F89BB9A517A /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/src/example.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		22B243FC35914814B39ACE6D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		44855B85D84F4520A5FD14E4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		92FDE4016C7C41B9ADDFE778 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		982C8C79EB6F4EAB94F02628 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		09DEAC6CE2114C0C931E4FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7BA2E53F1564AF7B74887F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB845E66556642818D29D16F;
+			remoteInfo = oxygen;
+		};
+		422652F5027A45D6A622433A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7BA2E53F1564AF7B74887F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A3FAAB6C82A48CE990BBA7E;
+			remoteInfo = example;
+		};
+		48F46B93C0DA4664B997ED96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7BA2E53F1564AF7B74887F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45B6B023C78B4375A8E8CAF0;
+			remoteInfo = ZERO_CHECK;
+		};
+		8F390991157C4A22926A2505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7BA2E53F1564AF7B74887F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB845E66556642818D29D16F;
+			remoteInfo = oxygen;
+		};
+		BB56FB81C08F461089E15694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7BA2E53F1564AF7B74887F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45B6B023C78B4375A8E8CAF0;
+			remoteInfo = ZERO_CHECK;
+		};
+		BED60B6809B14704A20B095C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7BA2E53F1564AF7B74887F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FC31F8D3064413958722B9;
+			remoteInfo = asserter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		206EF813BFC649BE90EEB3B4 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/asserter/src/archiver.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = archiver.hpp; path = lib/asserter/src/archiver.hpp; sourceTree = SOURCE_ROOT; };
+		21283B5C4646436BA8596E81 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3508B5192FD34D6FA6878BC3 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/src/oxygen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = oxygen.cpp; path = lib/oxygen/src/oxygen.cpp; sourceTree = SOURCE_ROOT; };
+		4F18727C1D1C4FF9BC87EAC2 /* example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = example; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B85ACF48344F89BB9A517A /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/src/example.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = example.cpp; path = src/example.cpp; sourceTree = SOURCE_ROOT; };
+		556BA9CCE24C40ED93C631AA /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/asserter/src/asserter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = asserter.hpp; path = lib/asserter/src/asserter.hpp; sourceTree = SOURCE_ROOT; };
+		6048252C0DF7445E90E57BAD /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/asserter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = lib/asserter/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7BF6954EA0CF40F99462D3E0 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/asserter/src/asserter.hxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = asserter.hxx; path = lib/asserter/src/asserter.hxx; sourceTree = SOURCE_ROOT; };
+		83E0875D74B64069B47E9109 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = lib/oxygen/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A23B5336406C4EB2AEF36332 /* oxygen */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liboxygen.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A262047525F240F1B176A4EB /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BE4C8217AFEE4C0C8915BA72 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/asserter/src/archiver.hxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = archiver.hxx; path = lib/asserter/src/archiver.hxx; sourceTree = SOURCE_ROOT; };
+		DED7C10EE7BB4DF6805D8390 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/src/oxygen.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = oxygen.hpp; path = lib/oxygen/src/oxygen.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B8A996CA9EC4942B5306E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27466138DE754022AEF1A98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01847BF139324B64898888B1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED7C10EE7BB4DF6805D8390 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/src/oxygen.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		076E22D27560473CA9644612 /* oxygen */ = {
+			isa = PBXGroup;
+			children = (
+				01847BF139324B64898888B1 /* Header Files */,
+				1BF092FCFBA1480BBC7F8154 /* Source Files */,
+				83E0875D74B64069B47E9109 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/CMakeLists.txt */,
+			);
+			name = oxygen;
+			sourceTree = "<group>";
+		};
+		1235102ED1EC4B989355F96C /* asserter */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F900AB3654531BE224B67 /* Header Files */,
+				6048252C0DF7445E90E57BAD /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/asserter/CMakeLists.txt */,
+			);
+			name = asserter;
+			sourceTree = "<group>";
+		};
+		12BB5B6DB98641FEAF2E44B4 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				60A703147CEC47E49C2D401B /* Source Files */,
+				21283B5C4646436BA8596E81 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/CMakeLists.txt */,
+			);
+			name = example;
+			sourceTree = "<group>";
+		};
+		1BF092FCFBA1480BBC7F8154 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3508B5192FD34D6FA6878BC3 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/src/oxygen.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		25C8295CC8FF40BB8936FEFD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		524C38BF899E44EA88C83A4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60A703147CEC47E49C2D401B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				50B85ACF48344F89BB9A517A /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/src/example.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A11B63EFD60C4EA68BCFAFC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F18727C1D1C4FF9BC87EAC2 /* example */,
+				A23B5336406C4EB2AEF36332 /* oxygen */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF4E13C2E4C4D8DBFD18554 = {
+			isa = PBXGroup;
+			children = (
+				12BB5B6DB98641FEAF2E44B4 /* example */,
+				E34CC025E14D4F2CBF3C998B /* ALL_BUILD */,
+				076E22D27560473CA9644612 /* oxygen */,
+				1235102ED1EC4B989355F96C /* asserter */,
+				A11B63EFD60C4EA68BCFAFC6 /* Products */,
+				524C38BF899E44EA88C83A4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E34CC025E14D4F2CBF3C998B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				25C8295CC8FF40BB8936FEFD /* CMake Rules */,
+				A262047525F240F1B176A4EB /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		EE2F900AB3654531BE224B67 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				206EF813BFC649BE90EEB3B4 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/asserter/src/archiver.hpp */,
+				BE4C8217AFEE4C0C8915BA72 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/asserter/src/archiver.hxx */,
+				556BA9CCE24C40ED93C631AA /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/asserter/src/asserter.hpp */,
+				7BF6954EA0CF40F99462D3E0 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/asserter/src/asserter.hxx */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A3FAAB6C82A48CE990BBA7E /* example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2B0B013D72489A8C3B872A /* Build configuration list for PBXNativeTarget "example" */;
+			buildPhases = (
+				B5EF66FA3E30474D95302B2C /* Sources */,
+				0B8A996CA9EC4942B5306E63 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C68BB516A488440B93764176 /* PBXTargetDependency */,
+				B7EC2A2671B744CEA6741B32 /* PBXTargetDependency */,
+			);
+			name = example;
+			productName = example;
+			productReference = 4F18727C1D1C4FF9BC87EAC2 /* example */;
+			productType = "com.apple.product-type.tool";
+		};
+		CB845E66556642818D29D16F /* oxygen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51923B9AA624CB9B14EDD69 /* Build configuration list for PBXNativeTarget "oxygen" */;
+			buildPhases = (
+				3BA93C8C2D734D47BBE1A582 /* Sources */,
+				27466138DE754022AEF1A98D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oxygen;
+			productName = oxygen;
+			productReference = A23B5336406C4EB2AEF36332 /* oxygen */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7BA2E53F1564AF7B74887F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1610;
+			};
+			buildConfigurationList = 113271872FE34C9FA659A56D /* Build configuration list for PBXProject "example" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				22B243FC35914814B39ACE6D /* Debug */,
+				44855B85D84F4520A5FD14E4 /* Release */,
+				982C8C79EB6F4EAB94F02628 /* MinSizeRel */,
+				92FDE4016C7C41B9ADDFE778 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DDF4E13C2E4C4D8DBFD18554;
+			projectDirPath = /Users/mucbuc/work/wgui/test/lib/oxygen/test;
+			projectRoot = "";
+			targets = (
+				5760EF73859C4E99A0718710 /* ALL_BUILD */,
+				45B6B023C78B4375A8E8CAF0 /* ZERO_CHECK */,
+				96FC31F8D3064413958722B9 /* asserter */,
+				7A3FAAB6C82A48CE990BBA7E /* example */,
+				CB845E66556642818D29D16F /* oxygen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4F9BAA9F012657E72791EFE0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6C0DB650F787E977D029F3C9 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build
+  make -f /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build
+  make -f /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build
+  make -f /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build
+  make -f /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F492DFB75A88F829DBC98FFA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA93C8C2D734D47BBE1A582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8376FC84E73544389B7D816A /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/src/oxygen.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EF66FA3E30474D95302B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C6EB00BE974543B7236708 /* /Users/mucbuc/work/wgui/test/lib/oxygen/test/src/example.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29264D9BE1464551B0F653DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A3FAAB6C82A48CE990BBA7E /* example */;
+			targetProxy = 422652F5027A45D6A622433A /* PBXContainerItemProxy */;
+		};
+		56FF66F992A94C9689401FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB845E66556642818D29D16F /* oxygen */;
+			targetProxy = 09DEAC6CE2114C0C931E4FB5 /* PBXContainerItemProxy */;
+		};
+		B15CACCCE55D4712BEE4941A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96FC31F8D3064413958722B9 /* asserter */;
+			targetProxy = BED60B6809B14704A20B095C /* PBXContainerItemProxy */;
+		};
+		B7EC2A2671B744CEA6741B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB845E66556642818D29D16F /* oxygen */;
+			targetProxy = 8F390991157C4A22926A2505 /* PBXContainerItemProxy */;
+		};
+		C68BB516A488440B93764176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45B6B023C78B4375A8E8CAF0 /* ZERO_CHECK */;
+			targetProxy = 48F46B93C0DA4664B997ED96 /* PBXContainerItemProxy */;
+		};
+		D8F7E036E3E34CD9A16E0343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45B6B023C78B4375A8E8CAF0 /* ZERO_CHECK */;
+			targetProxy = BB56FB81C08F461089E15694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0802BF7C6FB6434C8C7C6A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/lib/oxygen/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/PUBLIC,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20' -Werror ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = oxygen;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/test/lib,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build/oxygen.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		17C0CCBFE2A14EDFA8BA8D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		188A75BBDAAC4F5C8762407B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/lib/oxygen/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/PUBLIC,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++20' -Werror ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = oxygen;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/test/lib,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build/oxygen.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1CA6642CC4D54F1EB4C71D1F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build";
+			};
+			name = MinSizeRel;
+		};
+		2529D7C2FC3B404394882147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk;
+				SYMROOT = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build";
+			};
+			name = Debug;
+		};
+		255BCC6447AF4B9A88ED5D0F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		29AFB5E1277F4DCB84EF2A52 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/PUBLIC,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20' -Werror ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/lib/oxygen/MinSizeRel/liboxygen.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build/example.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3102BC4F0E0F44CCB4B95445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3E45C45F475645BF96996A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/PUBLIC,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20' -Werror ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/lib/oxygen/Release/liboxygen.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build/example.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		459E66842B224B58B7FC691A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asserter;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		49EABEA295C54BD99BAC8B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		541336328F044056ABC66DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5B0EC8FD76BC40FFBFAABE9C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6FA2B89298CF44C69D885246 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		75B998B8AA0B41FCB97C7574 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asserter;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		867880E4D83640A090D97DA0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/lib/oxygen/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/PUBLIC,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20' -Werror ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = oxygen;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/test/lib,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build/oxygen.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		99311C0C4B99446C9431ED1F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9983C356B36B490199839E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asserter;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9DAC893D92A148FD992320E4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/PUBLIC,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++20' -Werror ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/lib/oxygen/RelWithDebInfo/liboxygen.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build/example.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A264C4213099495B945D743D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/PUBLIC,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++20' -Werror ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/lib/oxygen/Debug/liboxygen.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build/example.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D7F5702EBAE64B1283D9F945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asserter;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EB42AC70EF774DCD85EE37E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build";
+			};
+			name = Release;
+		};
+		EE8E8EA3CFE24AF887EB0EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/lib/oxygen/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/PUBLIC,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++20' -Werror ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = oxygen;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mucbuc/work/wgui/test/lib/oxygen/test/lib/oxygen/test/lib,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/mucbuc/work/wgui/test/lib/oxygen/test/xc-build/build/oxygen.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F9E72E47E7DD4CBAB319C1E5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113271872FE34C9FA659A56D /* Build configuration list for PBXProject "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2529D7C2FC3B404394882147 /* Debug */,
+				EB42AC70EF774DCD85EE37E2 /* Release */,
+				1CA6642CC4D54F1EB4C71D1F /* MinSizeRel */,
+				6FA2B89298CF44C69D885246 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1AA2304E292144F388C6CB79 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541336328F044056ABC66DCE /* Debug */,
+				17C0CCBFE2A14EDFA8BA8D6D /* Release */,
+				255BCC6447AF4B9A88ED5D0F /* MinSizeRel */,
+				99311C0C4B99446C9431ED1F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1F361004DF6A4D15898ED130 /* Build configuration list for PBXAggregateTarget "asserter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F5702EBAE64B1283D9F945 /* Debug */,
+				9983C356B36B490199839E5E /* Release */,
+				459E66842B224B58B7FC691A /* MinSizeRel */,
+				75B998B8AA0B41FCB97C7574 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A01E11575664469B86F6F9C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EABEA295C54BD99BAC8B58 /* Debug */,
+				3102BC4F0E0F44CCB4B95445 /* Release */,
+				F9E72E47E7DD4CBAB319C1E5 /* MinSizeRel */,
+				5B0EC8FD76BC40FFBFAABE9C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE2B0B013D72489A8C3B872A /* Build configuration list for PBXNativeTarget "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A264C4213099495B945D743D /* Debug */,
+				3E45C45F475645BF96996A2C /* Release */,
+				29AFB5E1277F4DCB84EF2A52 /* MinSizeRel */,
+				9DAC893D92A148FD992320E4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F51923B9AA624CB9B14EDD69 /* Build configuration list for PBXNativeTarget "oxygen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8E8EA3CFE24AF887EB0EC9 /* Debug */,
+				0802BF7C6FB6434C8C7C6A8E /* Release */,
+				867880E4D83640A090D97DA0 /* MinSizeRel */,
+				188A75BBDAAC4F5C8762407B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7BA2E53F1564AF7B74887F8 /* Project object */;
+}
