@@ -16,7 +16,7 @@ struct TextFactory {
     TextFactory& set_var(std::string name, const T& value)
     {
         set_var(name, std::to_string(value));
-        return * this;
+        return *this;
     }
     TextFactory& set_var(std::string name, std::string value);
     TextFactory& set_var(std::string name, const char* value);
@@ -25,8 +25,7 @@ struct TextFactory {
     std::string make(std::map<std::string, std::string> = {}) const;
 
 private:
-
-	TextFactory() = delete;
+    TextFactory() = delete;
 
     const std::string m_template;
     std::map<std::string, std::string> m_variables;

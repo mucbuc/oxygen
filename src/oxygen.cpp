@@ -25,7 +25,7 @@ TextFactory& TextFactory::set_var(std::string name, const char* value)
 TextFactory& TextFactory::set_vars(std::map<std::string, std::string> overrides)
 {
     overrides.insert(m_variables.begin(), m_variables.end());
-    std::swap(m_variables, overrides); 
+    std::swap(m_variables, overrides);
     return *this;
 }
 

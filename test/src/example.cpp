@@ -1,16 +1,17 @@
-#include <oxygen/src/oxygen.hpp>
 #include <oxygen/src/html.hpp>
+#include <oxygen/src/oxygen.hpp>
+
+#include <asserter/src/test.hpp>
 
 template <typename T>
 static void test_recursion(const T& elements_factory)
 {
     const auto fieldset2 = elements_factory.factory("fieldset").make();
-    const auto form = elements_factory.factory("form").make({{"content", fieldset2}});
-    
+    const auto form = elements_factory.factory("form").make({ { "content", fieldset2 } });
 
     std::cout << form << std::endl;
+    FOOTER;
 }
-
 
 template <typename T>
 static void test_missing_var(const T& elements_factory)
