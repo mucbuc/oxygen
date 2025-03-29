@@ -20,9 +20,9 @@ struct TextFactory {
     }
     TextFactory& set_var(std::string name, std::string value);
     TextFactory& set_var(std::string name, const char* value);
-    TextFactory& set_vars(std::initializer_list<typename std::map<std::string, std::string>::value_type>);
+    TextFactory& set_vars(std::map<std::string, std::string>);
 
-    std::string make(std::initializer_list<typename std::map<std::string, std::string>::value_type> = { {} }) const;
+    std::string make(std::map<std::string, std::string> = {}) const;
 
 private:
 

@@ -6,6 +6,7 @@ namespace oxygen {
 
 TextFactory::TextFactory(std::string temp)
     : m_template(temp)
+    , m_variables()
 {
 }
 
@@ -21,23 +22,17 @@ TextFactory& TextFactory::set_var(std::string name, const char* value)
     return *this;
 }
 
-TextFactory& TextFactory::set_vars(std::initializer_list<typename std::map<std::string, std::string>::value_type> init_list)
+TextFactory& TextFactory::set_vars(std::map<std::string, std::string> overrides)
 {
-    for (auto p : init_list) {
-        m_variables[p.first] = p.second;
-    }
+    overrides.insert(m_variables.begin(), m_variables.end());
+    std::swap(m_variables, overrides); 
     return *this;
 }
 
-std::string TextFactory::make(std::initializer_list<typename std::map<std::string, std::string>::value_type> init_list) const
+std::string TextFactory::make(std::map<std::string, std::string> overrides) const
 {
-    std::map<std::string, std::string> variables(init_list);
-
-    for (auto p : m_variables) {
-        variables.emplace(p);
-    }
-
-    return text_utils::apply_variables(m_template, variables);
+    overrides.insert(m_variables.begin(), m_variables.end());
+    return text_utils::apply_variables(m_template, overrides);
 }
 
 #pragma mark-- ElementFactories
